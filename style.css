@@ -257,3 +257,139 @@ nav a:hover{
     margin-bottom:24px;
 
 }
+
+/* ==========================
+   OUR PRINCIPLES
+========================== */
+
+.principles{
+
+    padding:120px 8%;
+    background:#FCF8F1;
+
+}
+
+.principles-container{
+
+    max-width:1200px;
+    margin:0 auto;
+
+}
+
+.principles h2{
+
+    font-size:48px;
+    color:#4E2F2B;
+    line-height:1.2;
+
+    margin-bottom:70px;
+
+}
+
+.principles-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:35px;
+
+}
+
+.principle-card{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(125,73,0,0.08);
+
+    transition:0.3s;
+
+}
+
+.principle-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 16px 40px rgba(0,0,0,.08);
+
+}
+
+.principle-card h3{
+
+    font-size:24px;
+
+    color:#4E2F2B;
+
+    margin-bottom:18px;
+
+}
+
+.principle-card p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#555555;
+
+}
+
+/* ==========================
+   RESPONSIVE - PRINCIPLES
+========================== */
+
+@media (max-width: 900px) {
+
+    .principles {
+
+        padding: 80px 6%;
+
+    }
+
+    .principles h2 {
+
+        font-size: 40px;
+        margin-bottom: 50px;
+
+    }
+
+    .principles-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .principle-card {
+
+        padding: 32px;
+
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .principles h2 {
+
+        font-size: 32px;
+        line-height: 1.2;
+
+    }
+
+    .principle-card h3 {
+
+        font-size: 22px;
+
+    }
+
+    .principle-card p {
+
+        font-size: 17px;
+
+    }
+
+}
