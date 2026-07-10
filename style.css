@@ -159,41 +159,7 @@ nav a:hover{
 
         width:260px;
     }
-/* About Section */
 
-.about{
-
-    padding:80px 8%;
-
-}
-
-.about h2{
-
-    font-size:38px;
-
-}
-
-.about-intro{
-
-    font-size:21px;
-
-}
-
-.about p{
-
-    font-size:18px;
-
-    line-height:1.8;
-
-}
-
-.section-tag{
-
-    font-size:14px;
-
-    letter-spacing:1.5px;
-
-}
 }
 
 /* ==========================
@@ -579,31 +545,8 @@ nav a:hover{
         justify-content:center;
     }
 
-    .why-cocojag{
-
-    padding:90px 8%;
-
 }
 
-.why-header h2{
-
-    font-size:2.2rem;
-
-}
-
-.why-grid{
-
-    grid-template-columns:1fr;
-
-}
-
-.why-card{
-
-    padding:30px;
-
-}
-    
-}
 
 /* ==========================
    WHY COCOJAG
@@ -621,7 +564,7 @@ nav a:hover{
 
     max-width:760px;
 
-    margin:0 auto 70px;
+    margin:0 auto;
 
     text-align:center;
 
@@ -647,9 +590,56 @@ nav a:hover{
 
     line-height:1.9;
 
+    margin-bottom:20px;
+
 }
 
-.why-grid{
+
+.why-intro strong{
+
+    color:#4E2F2B;
+
+}
+
+/* ==========================
+   RESPONSIVE - WHY COCOJAG
+========================== */
+
+@media (max-width:900px){
+
+    .why-cocojag{
+
+        padding:90px 8%;
+
+    }
+
+    .why-header h2{
+
+        font-size:2.2rem;
+
+    }
+
+}
+
+/* ==========================
+   INGREDIENT PHILOSOPHY
+========================== */
+
+.ingredient-philosophy{
+
+    padding:120px 8%;
+
+    background:#FCF8F1;
+
+}
+
+.ingredient-philosophy .why-header{
+
+    margin-bottom:70px;
+
+}
+
+.ingredient-grid{
 
     display:grid;
 
@@ -659,7 +649,7 @@ nav a:hover{
 
 }
 
-.why-card{
+.ingredient-card{
 
     background:#F8F3EA;
 
@@ -671,7 +661,7 @@ nav a:hover{
 
 }
 
-.why-card:hover{
+.ingredient-card:hover{
 
     transform:translateY(-8px);
 
@@ -679,7 +669,7 @@ nav a:hover{
 
 }
 
-.why-card h3{
+.ingredient-card h3{
 
     font-size:1.5rem;
 
@@ -689,10 +679,32 @@ nav a:hover{
 
 }
 
-.why-card p{
+.ingredient-card p{
 
     color:#555;
 
     line-height:1.8;
+
+}
+
+@media (max-width:900px){
+
+    .ingredient-philosophy{
+
+        padding:90px 8%;
+
+    }
+
+    .ingredient-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .ingredient-card{
+
+        padding:30px;
+
+    }
 
 }
