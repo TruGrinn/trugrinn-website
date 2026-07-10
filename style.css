@@ -449,16 +449,53 @@ nav a:hover{
 
 .product-features{
 
-    list-style:none;
-
     margin-bottom:40px;
+
+    margin-top:22px;
 }
 
-.product-features li{
+.feature-item{
 
-    font-size:20px;
+    display:flex;
 
-    margin-bottom:14px;
+    align-items:flex-start;
+
+    gap:14px;
+
+    margin-bottom:16px;
+}
+
+.feature-icon{
+
+    flex-shrink:0;
+
+    width:20px;
+
+    height:20px;
+
+    border-radius:6px;
+
+    background:#7D4900;
+
+    color:#FFF8EE;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:12px;
+
+    font-weight:700;
+
+    line-height:1;
+
+    margin-top:2px;
+}
+.feature-text{
+
+    font-size:19px;
 
     color:#3D2A20;
 }
@@ -500,6 +537,10 @@ nav a:hover{
         text-align:center;
 
         gap:50px;
+
+        padding-left:6%;
+
+        padding-right:6%;
     }
 
     .product-content{
