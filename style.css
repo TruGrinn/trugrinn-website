@@ -1,3 +1,7 @@
+html{
+    scroll-behavior:smooth;
+}
+
 *{
     margin:0;
     padding:0;
@@ -713,6 +717,68 @@ nav a:hover{
     .ingredient-card{
 
         padding:30px;
+
+    }
+
+}
+
+/* ==========================
+   OUR STORY
+========================== */
+
+.our-story{
+
+    padding:120px 8%;
+
+    background:#ffffff;
+
+}
+
+.story-header{
+
+    max-width:700px;
+
+    margin:0 auto;
+
+    text-align:center;
+
+}
+
+.story-header h2{
+
+    font-size:3rem;
+
+    color:#4B2E2A;
+
+    margin:15px 0 25px;
+
+    line-height:1.2;
+
+}
+
+.story-text{
+
+    font-size:1.1rem;
+
+    color:#555;
+
+    line-height:1.9;
+
+    margin-bottom:24px;
+
+}
+
+@media (max-width:900px){
+
+    .our-story{
+
+        padding:90px 8%;
+
+    }
+
+    .story-header h2{
+
+        font-size:2.2rem;
 
     }
 
