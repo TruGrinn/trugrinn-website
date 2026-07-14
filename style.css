@@ -447,6 +447,20 @@ nav a:hover{
     margin-bottom:26px;
 }
 
+.feature-list-title{
+
+    font-size:22px;
+
+    font-weight:600;
+
+    color:#7D4900;
+
+    margin-top:32px;
+
+    margin-bottom:18px;
+
+}
+
 .product-features{
 
     margin-bottom:40px;
@@ -922,6 +936,33 @@ nav a:hover{
     min-height:140px;
 
     resize:vertical;
+
+}
+
+.form-success{
+
+    display:none;
+
+    margin-top:20px;
+
+    padding:16px 20px;
+
+    background:#F8F3EA;
+
+    border:1px solid #E8DED1;
+
+    border-radius:12px;
+
+    color:#4E2F2B;
+
+    font-size:15px;
+
+    text-align:center;
+}
+
+.form-success.visible{
+
+    display:block;
 
 }
 
