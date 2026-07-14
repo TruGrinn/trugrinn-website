@@ -168,25 +168,13 @@ nav a:hover{
 
     }
 
-}
-
-@media (max-width:600px) {
-
-    .hero-text h1{
-
-        font-size:57px;
-
-    }
-
-}
-
     .hero-image{
 
         width:100%;
         margin-top:40px;
     }
 
-   .hero-image img{
+    .hero-image img{
 
         width:260px;
     }
@@ -196,6 +184,16 @@ nav a:hover{
         padding-left:6%;
 
         padding-right:6%;
+
+    }
+
+}
+
+@media (max-width:600px) {
+
+    .hero-text h1{
+
+        font-size:clamp(38px, 11vw, 57px);
 
     }
 
