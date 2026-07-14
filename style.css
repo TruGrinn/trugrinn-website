@@ -167,16 +167,36 @@ nav a:hover{
         font-size:64px;
 
     }
-    
+
+}
+
+@media (max-width:600px) {
+
+    .hero-text h1{
+
+        font-size:57px;
+
+    }
+
+}
+
     .hero-image{
 
         width:100%;
         margin-top:40px;
     }
 
-    .hero-image img{
+   .hero-image img{
 
         width:260px;
+    }
+
+    .about{
+
+        padding-left:6%;
+
+        padding-right:6%;
+
     }
 
 }
